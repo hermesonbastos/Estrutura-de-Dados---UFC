@@ -63,6 +63,7 @@ Matriz *Matriz::soma(Matriz& B) {
                 aux->mat[i][j] = this->mat[i][j] + B.mat[i][j];
             }
         }
+        
         return aux;
     } else {
         cout << "nao foi possivel somar" << endl;
